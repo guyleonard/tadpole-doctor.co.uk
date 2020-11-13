@@ -6,6 +6,9 @@
         body, html {
         height: 100%;
         margin: 0;
+        font-family: 'Cinzel Decorative', serif;
+        color: #F2E2D2;
+        text-shadow: 4px 4px 4px #aaa;
         }
         .bg {
         /* The image used */
@@ -17,11 +20,22 @@
         background-repeat: no-repeat;
         background-size: cover;
         }
+        /* Centered text */
+        .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
         </style>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel+Decorative">
     </head>
     <body>
         <div class="bg"></div>
-        <h1 style="font-size:8vw;">Tadpole Doctor</h1>
-        <p style="font-size:2vw;">Website Coming Soon</p>
+        <div class="centered">
+            <h1 style="font-size:6vw;">Tadpole Doctor</h1>
+            <p style="font-size:2vw;">Website Coming Soon</p>
+        </div>
     </body>
 </html>
