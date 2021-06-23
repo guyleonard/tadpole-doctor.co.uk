@@ -1,3 +1,6 @@
+url: guyleonard.github.io
+   baseurl: /tadpole-doctor.co.uk 
+
 plugins:
   - jekyll-maps
 
